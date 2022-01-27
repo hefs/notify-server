@@ -12,7 +12,7 @@ enum LoveMsgURL {
   // 今日头条
   topNews = 'http://api.tianapi.com/topnews/index',
   // 最美宋词
-  songLyrics = 'http://api.tianapi.com/zmsc/index',
+  songLyrics = 'http://api.tianapi.com/tianqishiju/index',
   // 每日一句美好英语
   dayEnglish = 'http://api.tianapi.com/everyday/index',
   // 韩寒主编的ONE一个杂志，本接口返回每日一句
@@ -24,13 +24,13 @@ enum LoveMsgURL {
   // 获取农历信息
   lunarDate = 'http://api.tianapi.com/lunar/index',
   // 土味情话
-  saylove = 'http://api.tianapi.com/saylove/index',
+  saylove = 'http://api.tianapi.com/zaoan/index',
   // 彩虹屁
   caihongpi = 'http://api.tianapi.com/caihongpi/index',
   // 励志古言
   inspirationalWord = 'http://api.tianapi.com/lzmy/index',
   // 笑话
-  joke = 'http://api.tianapi.com/joke/index',
+  joke = 'http://api.tianapi.com/tianqishiju/index',
   // 一言
   oneWord = 'https://v1.hitokoto.cn/?encode=json',
 }
