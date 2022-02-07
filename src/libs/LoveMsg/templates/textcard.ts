@@ -82,7 +82,7 @@ ${tips}\n`
   description += `
   [ 点我有惊喜 ] ❤️ 🧡 💛 💚 💖`
 
-  const title = `这是我们相识的第 ${dateLength} 天`
+  const title = `这是我们相识相恋的第 ${dateLength} 天`
 
   return {
     msgtype: 'textcard',
@@ -92,7 +92,7 @@ ${tips}\n`
       url: 'https://api.lovelive.tools/api/SweetNothings',
       //   url: 'https://v1.jinrishici.com/all.svg',
       // url: 'https://api.vvhan.com/api/60s', // 60s看世界
-      btntxt: 'By崽崽',
+      btntxt: 'By松松',
     },
   }
 }
