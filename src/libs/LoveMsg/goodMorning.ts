@@ -47,7 +47,7 @@ const goodWord = async () => {
 
 // 天气信息
 const weatherInfo = async () => {
-  const weather = await API.getWeather('南昌')
+  const weather = await API.getWeather('抚州市金溪县')
   if (weather) {
     const lunarInfo = await API.getLunarDate(weather.date)
     const template = textCardTemplate({ ...weather, lunarInfo })
